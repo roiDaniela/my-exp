@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="@fortawesome/fontawesome/styles.css">-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Trigger Emails</title>
+</head>
+<body>
+<!--<div id="cloud-intro">-->
+
+    <div class="container-fluid">
+        <div class="page-header">
+            <h1>Trigger Emails</h1>
+        </div>
+
+        <!--<div class="my-body">-->
+            <!--<div class="input-group">-->
+                <!--<input type="text" id="enter-city" placeholder="Enter City" class="form-control">-->
+                <!--<span class="input-group-btn">-->
+                    <!--<button id="get-temp" class="btn btn-primary add-post" type="button">Get Temp!</button>-->
+                <!--</span>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+
+    <div class="my-body">
+        <div class="container" id="box-container">
+
+            <div class="shadow-lg p-3 mb-5 bg-white rounded">
+                <h2>Please add here the html campain file</h2>
+
+                <form class="box" method="post" action="" enctype="multipart/form-data">
+                    <div class="box__input">
+                        <input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+                        <label for="file"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
+                        <button class="box__button" type="submit">Upload</button>
+                    </div>
+                    <div class="box__uploading">Uploading&hellip;</div>
+                    <div class="box__success">Done!</div>
+                    <div class="box__error">Error! <span></span>.</div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="handlebars/dist/handlebars.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<!--<script src="https://cdn.rawgit.com/download/glyphicons/0.1.0/glyphicons.js"></script>-->
+</body>
+</html>
